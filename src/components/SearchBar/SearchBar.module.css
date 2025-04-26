@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  margin: 32px auto;
+  justify-content: center;
+  gap: 4px;
+}
+
+.input {
+  padding: 4px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #000080;
+  color: #000080;
+}
+
+.input:focus-within {
+  box-shadow: inset 2px 3px 4px #4169e1;
+}
+
+.input::placeholder {
+  color: #00008067;
+}
+
+.btn {
+  background-color: #000080;
+  color: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #4169e1;
+}
